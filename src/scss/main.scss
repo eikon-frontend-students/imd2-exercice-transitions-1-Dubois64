@@ -136,3 +136,14 @@ video {
 .wrapper-parent-delay:hover .item {
   background-color: #f72585;
 }
+
+.wrapper-parent-children .item {
+  transition-duration: 0.7s;
+}
+
+.wrapper-parent-children:hover {
+  background-color: #1d76db;
+}
+.wrapper-parent-children:hover .item {
+  background-color: #f72585;
+}
