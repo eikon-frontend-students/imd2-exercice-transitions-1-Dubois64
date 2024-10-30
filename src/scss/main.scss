@@ -179,3 +179,19 @@ video {
   transform: translateY(10%);
   transition-duration: 0.7s;
 }
+
+.wrapper-rotate .item {
+  transition: transform 0.5s;
+}
+
+.wrapper-rotate .item:hover {
+  transform: rotate(-180deg);
+}
+
+.wrapper-scale .item {
+  transition: transform 0.2s;
+}
+
+.wrapper-scale .item:hover {
+  transform: scale(1.2);
+}
